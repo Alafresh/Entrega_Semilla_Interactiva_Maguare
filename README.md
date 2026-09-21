@@ -1,6 +1,6 @@
 # Entregables Semilla Interactiva - Repositorio Oficial
 
-En este repositorio se encuentran los tres archivos comprimidos (`.zip`) correspondientes a las plataformas de distribución del proyecto:
+En este repositorio se encuentran los tres archivos comprimidos (`.zip`) correspondientes a las plataformas de distribución del proyecto, en la carpeta [Entregables](./Entregables/):
 
 - `Entregable_ANDROID_Semilla_Interactiva_Maguare.zip`
 - `Entregable_WINDOWS_Semilla_Interactiva_Maguare.zip`
@@ -14,7 +14,7 @@ El desarrollo completo fue construido de forma nativa utilizando el motor gráfi
 
 Para la compilación de la versión web, se dio cumplimiento estricto al instructivo [Documentación Técnica Interactivos - aplicativos maguare.gov.co](./Requerimientos/Documentación%20Técnica%20Interactivos%20-%20aplicativos%20maguare.gov.co.pdf)
 
-### Entorno de Pruebas (Staging)
+### Entorno de Pruebas
 
 El código fuente del aplicativo web sin comprimir se encuentra alojado en la rama `deploy-web`. Para facilitar el proceso de revisión por parte del equipo técnico, se ha desplegado una versión en vivo mediante GitHub Pages, disponible en el siguiente enlace:
 👉 [https://alafresh.github.io/Entrega_Semilla_Interactiva_Maguare/](https://alafresh.github.io/Entrega_Semilla_Interactiva_Maguare/)

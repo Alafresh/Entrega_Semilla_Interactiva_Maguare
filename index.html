@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <!-- 5.1 Metadatos Básicos y SEO -->
-    <title>Semilla - Maguaré - Ministerio de las Culturas de Colombia.</title>
+    <title>Semilla - Maguaré - Ministerio de las Culturas de Colombia</title>
     <meta
       name="description"
       content="Semilla Interactiva es un videojuego de juego libre para la primera infancia colombiana. Explora cinco mundos llenos de naturaleza y creatividad."
@@ -81,13 +81,29 @@
       content="https://alafresh.github.io/Entrega_Semilla_Interactiva_Maguare/TemplateData/og_image.jpg"
     />
 
+    <!-- 5.4 Datos Estructurados (Schema.org) -->
+    <script type="application/ld+json">
+      {
+        "@context": "<https://schema.org>",
+        "@type": "WebApplication",
+        "name": "Semilla Interactiva",
+        "description": "Semilla Interactiva es un videojuego de juego libre para la primera infancia colombiana. Explora cinco mundos llenos de naturaleza y creatividad.",
+        "applicationCategory": "EducationalApplication",
+        "genre": "Educativo",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Maguaré - Ministerio de las Culturas de Colombia"
+        }
+      }
+    </script>
+
     <!-- Estilos de Unity -->
     <link rel="stylesheet" href="TemplateData/style.css" />
     <!--! GTM: espacio para el script del contenedor oficial de Maguaré (head) -->
   </head>
   <body>
     <!--! GTM: espacio para el noscript del contenedor oficial de Maguaré (body) -->
-    <div id="unity-container" class="unity-desktop">
+    <main id="unity-container" class="unity-desktop">
       <h1>Semilla Interactiva</h1>
       <canvas
         id="unity-canvas"
@@ -102,12 +118,12 @@
         </div>
       </div>
       <div id="unity-warning"></div>
-      <div id="unity-footer">
+      <footer id="unity-footer">
         <div id="unity-logo-title-footer"></div>
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">Semilla Interactiva</div>
-      </div>
-    </div>
+      </footer>
+    </main>
     <script>
       var canvas = document.querySelector('#unity-canvas')
       function unityShowBanner(msg, type) {

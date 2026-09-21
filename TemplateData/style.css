@@ -73,6 +73,14 @@ body {
   width: 38px;
   height: 38px;
   background: url('fullscreen-button.png') no-repeat center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+#unity-fullscreen-button:focus {
+  outline: 3px solid #7b4df5; /* Usa el color morado de tu theme-color */
+  outline-offset: 2px;
 }
 #unity-warning {
   position: absolute;

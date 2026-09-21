@@ -103,6 +103,9 @@
       }
     </script>
 
+    <!-- 5.5 Indexación y Rastreo-->
+    <meta name="robots" content="noindex, nofollow" />
+
     <!-- Estilos de Unity -->
     <link rel="stylesheet" href="TemplateData/style.css" />
     <!--! GTM: espacio para el script del contenedor oficial de Maguaré (head) -->
@@ -126,7 +129,11 @@
       <div id="unity-warning"></div>
       <footer id="unity-footer">
         <div id="unity-logo-title-footer"></div>
-        <div id="unity-fullscreen-button"></div>
+        <button
+          id="unity-fullscreen-button"
+          aria-label="Activar pantalla completa"
+          tabindex="0"
+        ></button>
         <div id="unity-build-title">Semilla Interactiva</div>
       </footer>
     </main>

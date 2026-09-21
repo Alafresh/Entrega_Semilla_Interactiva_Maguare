@@ -29,10 +29,10 @@ Durante la fase de optimización, se utilizaron los siguientes enlaces oficiales
 
 Se escogieron los mejores resultados de la aproximación
 
-[Page-Speed-insights-Desktop](./imagenes/page-speed-insights.png)
-[Page-Speed-insights-Mobile](./imagenes/page-speed-insights-mobile.png)
-[Page-Speed-insights-Desktop](./imagenes/google-test-rich-results.png)
-[Page-Speed-insights-Desktop](./imagenes/OpenGraph.png)
+![Page-Speed-insights-Desktop](./imagenes/page-speed-insights.png)
+![Page-Speed-insights-Mobile](./imagenes/page-speed-insights-mobile.png)
+![Page-Speed-insights-Desktop](./imagenes/google-test-rich-results.png)
+![Page-Speed-insights-Desktop](./imagenes/OpenGraph.png)
 
 ---
 
@@ -71,9 +71,9 @@ _Quedo a su disposición para aplicar de cualquier corrección necesaria sobre l
 - Se configuró el título como `<title>Semilla - Maguaré - Ministerio de las Culturas de Colombia</title>`.
 
 - Se redactó una meta descripción optimizada detallando la naturaleza del videojuego `<meta
-    name="description"
-    content="Semilla Interactiva es un videojuego de juego libre para la primera infancia colombiana. Explora cinco mundos llenos de naturaleza y creatividad."
-  />`.
+  name="description"
+  content="Semilla Interactiva es un videojuego de juego libre para la primera infancia colombiana. Explora cinco mundos llenos de naturaleza y creatividad."
+/>`.
 
 - Se incluyó la etiqueta de `viewport` (`width=device-width, initial-scale=1.0`) para diseño responsivo.
 

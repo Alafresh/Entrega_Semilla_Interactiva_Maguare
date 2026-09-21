@@ -32,7 +32,7 @@ body {
 #unity-logo {
   width: 300px;
   height: 300px;
-  background: url('Oso_VR.svg') no-repeat center;
+  background: url('oso-vr.svg') no-repeat center;
 }
 #unity-progress-bar-empty {
   width: 141px;
@@ -58,7 +58,7 @@ body {
   float: left;
   width: 102px;
   height: 38px;
-  background: url('Logo_Mente_Interactiva.svg') no-repeat center;
+  background: url('logo-mente-interactiva.svg') no-repeat center;
 }
 #unity-build-title {
   float: right;
